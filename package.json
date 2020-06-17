@@ -1,0 +1,11 @@
+{
+  "name": "timeout-monitor",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "bin": "bin/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "ora": "^4.0.4"
+  }
+}
