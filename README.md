@@ -1,22 +1,11 @@
-# timeout-monitor
+# url-watcher
 
 Simple CLI to monitor website downtime. used for measuring "zero downtime deployments".
 
 ## Usage
 
-```
-npx timeout-monitor http://www.voila.fr
-```
-
-### Module
+By default it makes a request every `100ms` with a `500ms` request timeout. Hit `Ctrl + c` to stop watching.
 
 ```
-import { watch } from "timeout-monitor";
-
-watchUrl(url);
-
-
-### Options
-
- -
+npx url-watcher http://www.voila.fr
 ```

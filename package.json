@@ -1,5 +1,5 @@
 {
-  "name": "timeout-monitor",
+  "name": "url-watcher",
   "version": "1.0.0",
   "main": "src/index.js",
   "bin": "bin/index.js",
