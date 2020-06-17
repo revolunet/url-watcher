@@ -1,9 +1,10 @@
 {
   "name": "url-watcher",
+  "description": "Simple CLI to monitor website downtime. useful for measuring zero downtime deployments",
   "version": "1.0.0",
   "main": "src/index.js",
   "bin": "bin/index.js",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
     "node-fetch": "^2.6.0",
     "ora": "^4.0.4"
