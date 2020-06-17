@@ -2,6 +2,10 @@
 
 const { watch } = require("../src");
 
+const usage = () => {
+  console.log(`USAGE: npx url-watcher https://website/to/test`);
+};
+
 if (require.main === module) {
   if (process.argv.length !== 3) {
     usage();
