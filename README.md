@@ -12,5 +12,5 @@ Simple CLI to monitor website downtime. useful for measuring "zero downtime depl
 By default it makes a request every `100ms` with a `500ms` request timeout. Hit `Ctrl + c` to stop watching.
 
 ```sh
-npx url-watcher http://www.voila.fr
+npx url-watcher http://www.twitter.com
 ```
